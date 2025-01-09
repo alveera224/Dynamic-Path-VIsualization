@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Path Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Dynamic Path Visualization</h1>
+    <form id="addEdgeForm">
+        <input type="text" id="source" placeholder="Source Node" required>
+        <input type="text" id="destination" placeholder="Destination Node" required>
+        <input type="number" id="weight" placeholder="Weight" required>
+        <button type="submit">Add Edge</button>
+    </form>
+
+    <form id="shortestPathForm">
+        <input type="text" id="start" placeholder="Start Node" required>
+        <input type="text" id="end" placeholder="End Node" required>
+        <button type="submit">Find Shortest Path</button>
+    </form>
+
+    <div id="result"></div>
+    <script src="app.js"></script>
+</body>
+</html>
